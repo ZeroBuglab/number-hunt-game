@@ -7,7 +7,7 @@ elif level == "Normal":
 else:
     start , end = 100,1000
 number = random.randint(start, end)
-attempts = 10
+attempts = 5
 while attempts > 0:
     you = int(input("Your Number: "))
     if you == number:
@@ -22,5 +22,5 @@ while attempts > 0:
     if attempts == 0:
         print("You Lose!")
     stop = input("Do you want to continue? (yes/no):")
-    if stop == "n":
+    if stop == "no":
         break
