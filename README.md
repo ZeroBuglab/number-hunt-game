@@ -57,14 +57,4 @@ ____________________
 * building simple game logic
 
 It helps improve logical thinking and is a good beginner-level project for learning Python fundamentals.
-
-
-
-
-
-
-
-
-
-
-
+___________
