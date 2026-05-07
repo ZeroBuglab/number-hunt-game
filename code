@@ -1,11 +1,12 @@
 import random
-level = input("1-Easy, 2-Normal, 3-Hard")
-if level == "Easy":
-    start , end = 1,10
-elif level == "Normal":
-    start , end = 10,100
+
+level = input("Choose level: 1-Easy, 2-Normal, 3-Hard: ")
+if level == "1":
+    start, end = 1, 10
+elif level == "2":
+    start, end = 1, 100
 else:
-    start , end = 100,1000
+    start, end = 1, 1000
 number = random.randint(start, end)
 attempts = 5
 while attempts > 0:
@@ -20,7 +21,8 @@ while attempts > 0:
     attempts -= 1
     print("Your attempts:", attempts)
     if attempts == 0:
-        print("You Lose!")
-    stop = input("Do you want to continue? (yes/no):")
+        print("You Lose! The number was:", number)
+        break
+    stop = input("Do you want to continue? (yes/no): ")
     if stop == "no":
         break
