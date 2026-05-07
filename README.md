@@ -32,4 +32,39 @@ _____________________
   * Or all attempts are used.   
 7. At the end, the program displays:
   * A winning message if the number was guessed.
-  * Or the correct number if the player loses.   
+  * Or the correct number if the player loses.
+____________________
+## Example usage   
+1-Easy, 2-Normal, 3-Hard: Easy
+
+Your Number: 5
+your num very small
+Your attempts: 4
+
+Your Number: 8
+your num very big
+Your attempts: 3
+
+Your Number: 7
+You Won!
+____________________
+## Purpose of the Project
+#### This project was created to practice basic Python programming concepts such as:
+* conditional statements (if/else)
+* loops (while)
+* user input handling
+* working with the random module
+* building simple game logic
+
+It helps improve logical thinking and is a good beginner-level project for learning Python fundamentals.
+
+
+
+
+
+
+
+
+
+
+
