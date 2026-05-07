@@ -19,17 +19,17 @@ _____________________
    * Easy
    * Medium
    * Hard    
-3. Based on the selected level:  
-* The game sets the number range.  
-* The game sets the number of attempts.  
-4. The random library generates a secret number.  
-5. The player enters guesses through the console. 
-6. After each guess:   
+2. Based on the selected level:
+   * The game sets the number range.
+   * The game sets the number of attempts.  
+3. The random library generates a secret number.  
+4. The player enters guesses through the console. 
+5. After each guess:   
    * The program checks if the number is correct.  
    * If the guess is too high or too low, the player receives a hint.  
-7. The game continues until:    
+6. The game continues until:    
   * The player guesses the correct number. 
   * Or all attempts are used.   
-7. At the end, the program displays:  
-* A winning message if the number was guessed.  
-* Or the correct number if the player loses.   
+7. At the end, the program displays:
+  * A winning message if the number was guessed.
+  * Or the correct number if the player loses.   
